@@ -1,16 +1,16 @@
-// function foo() {
-//   let x = "webcamp"
-//   {
-//     let y = "hello webcamp"
-//   }
-//   console.log(x)
-//   console.log(y)
-// }
+let alertString;
 
-// foo()
+alertString = addString("webcamp");
 
-for (let i = 0; i < 10; i++) {     
-  console.log(i) 
+alert(alertString);
+
+function addString(strA){
+  let addStr = "Hello" + strA;
+  return addStr;
 }
 
-console.log(i)
+
+// 入力ダイアログで値を入力する
+let promptStr = prompt('何か好きな文字を入力してください。');
+
+alert(promptStr);
